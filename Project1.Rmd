@@ -1,6 +1,6 @@
 ---
 title: "Project1"
-author: "Kelsey Garcia kg29435"
+author: "Kelsey Garcia - kg29435"
 date: "10/26/2021"
 output: html_document
 ---
