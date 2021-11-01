@@ -96,6 +96,8 @@ Prerequisite: Finding appropriate data from at least two sources per the instruc
 
 - Write a narrative introductory paragraph or two describing the datasets you have chosen, the variables they contain, how they were acquired, and why they are interesting to you. Expand on potential associations you may expect, if any.
 
+  Now that we're in a world highly obsessed with the internet and overall perceived happiness, as well as in the midst of one of the greatest suicide rates in history, I thought it would be interesting to study actual data over a 10-year period on all three of these topics. Three datasets were used, all from gapminder.org where each individual dataset contained a different set of information concerning the three variables of internet use, happiness score, and total suicides. The internet users data represents the percentage of the population in each country in a given year that uses the internet. The happiness score data was collected by questionnaire's and manipulated to represent the percentage of happiness the reporting individuals felt. These results were averaged over each country and over each year from 2005 to 2015. Lastly, the total suicides data represented the number of deaths caused by self-inflicted injury for each country across each of the aforementioned years. Prior to actually performing the analysis, I wanted to see if there was a negative correlation with internet use and happiness score, meaning that countries that the internet more tended to be less happy. I also expected to see a positive correlation between happiness score and total suicides meaning that generally happier countries tend to have fewer deaths by suicide. However, it's important to note that this data does not analyze many confounding variables such as quality of life in each country and individual causes of mental illness.
+  
 #### 1. Tidying: Rearranging Wide/Long (10 pts)
 
 - Tidy the datasets (using the `tidyr` functions `pivot_longer`/`gather` and/or `pivot_wider`/`spread`) 
@@ -169,7 +171,7 @@ Prerequisite: Finding appropriate data from at least two sources per the instruc
 cd ~/project1 #cd to your project1 directory
 git add .
 git commit -m "message"
-git remote add origin https://github.com/YOUR_USERNAME/project1.git
+git remote set-url origin https://github.com/YOUR_USERNAME/project1.git
 git push origin main
 ```
 
