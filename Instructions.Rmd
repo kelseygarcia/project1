@@ -179,7 +179,7 @@ git push origin main
 https://github.com/YOUR_USERNAME/project1/settings/pages. Then, select the main branch and click save. Finally, go back to your homepage repository, go to the Portfolio.Rmd page, and update the link for project1 to YOUR_USERNAME.github.io/project1. Add, commit, and push your updated homepage to GitHub for deployment.
 
 - Your project MUST be live at YOUR_USERNAME.github.io/project1 to receive a grade. Failure to do this before the due date will result in a late deduction.
-
+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
 
 ### Where do I find data?
 
